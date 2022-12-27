@@ -1,0 +1,33 @@
+.contener {
+    width: 87%;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+
+.contenerDark {
+    background-color: var(--VeryDarkDesaturatedBlue);
+}
+
+.contenerLight {
+    background-color: var(--LightGrayishBlueHover);
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--DarkGrayishBlue);
+    font-size: 12px;
+}
+
+.clearCompleted {
+    background-color: transparent;
+    border: none;
+    color: var(--DarkGrayishBlue);
+    font-size: 12px;
+}
+
+.clearCompleted:hover {
+    color: var(--LightGrayishBlueHover)
+}

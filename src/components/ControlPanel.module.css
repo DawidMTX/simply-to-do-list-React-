@@ -1,0 +1,22 @@
+.content{
+    width: 87%;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content > button{
+    padding:10px;
+    background-color: transparent;
+    border: none;
+    color: var(--DarkGrayishBlue);
+    font-weight: 700;
+    font-size: 12px;
+}
+.content > button:focus{
+    color: rgb(45, 45, 241);
+}
+.content > button:hover{
+    color: var(--LightGrayishBlueHover)
+}

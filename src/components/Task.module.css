@@ -1,0 +1,32 @@
+.task{
+    border-bottom: 1px solid var(--VeryDarkGrayishBlue);
+   width: 100%;
+   min-height: 53px;
+   display: flex;
+   padding: 2px 20px;
+}
+.title{
+    width: 80%;
+    align-self: center;
+    padding-left: 12px;
+    color: white;
+    font-size: 12px;
+}
+.titleLight{
+    color: black;
+}
+.titleDone{
+    color:var(--DarkGrayishBlue);
+    text-decoration: line-through;
+   
+}
+.btnCross{
+    background-color: transparent;
+    border: none;
+    margin-left: auto;
+   
+}
+.btnCross > img {
+    width: 12px;
+    height: 12px;
+}

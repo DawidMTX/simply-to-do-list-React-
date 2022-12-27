@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+main{
+  display: flex;
+  justify-content: center;
+ 
+}
+.contener {
+  width: 375px;
+  height: 100%;
+  
+}
+.backgroundImage{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat:no-repeat;
+  background-size: contain;
+ 
+}
+.backgroundImageDark {
+  background-color: var(--VeryDarkBlue);
+  background-image: url('images/bg-mobile-dark.jpg');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.backgroundImageLigth {
+  background-color: var(--LightGrayishBlue);
+  background-image: url('images/bg-mobile-light.jpg');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.iconButton {
+  background-color: transparent;
+  border: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 48px;
+  padding: 0 25px;
+}
+
+.title {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: 11px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.content {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  top: 35px;
+  padding-bottom: 40px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+@media (min-width: 700px) {
+  .contener {
+    width: 430px;
+    
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .backgroundImageDark {
+    background-size: 100% 200px;
+    background-image: url('images/bg-desktop-dark.jpg');
   }
-  to {
-    transform: rotate(360deg);
+
+  .backgroundImageLigth {
+    background-image: url('images/bg-desktop-light.jpg');
+    background-size: 100% 200px;
   }
+
 }

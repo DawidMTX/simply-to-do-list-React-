@@ -1,0 +1,36 @@
+.contener {
+    width: 87%;
+}
+.form {
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    margin-left: 10px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    color: var(--LightGrayishBlue);
+    padding: 6px;
+}
+
+.btn {
+    width: 70px;
+    background-color: var(--VeryDarkGrayishBlue);
+    border: none;
+    margin-left: 15px;
+    border-radius: 3px;
+    color:var(--LightGrayishBlue)
+}
+.btnLight{
+    background-color: var(--LightGrayishBlue);
+    color:var(--DarkGrayishBlue)
+}
+
+.btn:hover {
+    transform: scale(0.95);
+}

@@ -1,0 +1,14 @@
+.card{
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.card-dark{
+    background-color: var(--VeryDarkDesaturatedBlue);
+}
+.card-light{
+    background-color: var(--LightGrayishBlueHover);
+}
