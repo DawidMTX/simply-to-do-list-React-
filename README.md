@@ -4,7 +4,7 @@ It's simply do to app. You can add, remove and sort list of task. There are two 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://dawidmtx.github.io/Rock-Paper-Scissors---game/)
+- Live Site URL: [Add live site URL here]()
 
 
 ## Techonogies
